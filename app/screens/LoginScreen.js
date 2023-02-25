@@ -42,7 +42,7 @@ function LoginScreen(props) {
             showIndicator(false);
             return true;
         }
-
+        props.navigation.navigate("HomeScreen")
         try {
             // API INTEGRATION WILL COME HERE
         } catch (error) {
